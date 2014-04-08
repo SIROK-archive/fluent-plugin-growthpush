@@ -1,15 +1,13 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fluent/plugin/growthpush/version'
+$:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-growthpush"
-  spec.version       = Fluent::Plugin::Growthpush::VERSION
-  spec.authors       = ["sota0805"]
+  spec.version       = "0.0.1"
+  spec.authors       = ["Sota Yamashita"]
   spec.email         = ["sota.yamashita@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Growth Push output plugin for Fluentd data collector}
+  spec.summary       = %q{Growth Push output plugin for Fluentd data collector}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -21,4 +19,12 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
+
+  spec.add_runtime_dependency "fluentd"
+  spec.add_runtime_dependency 'growthpush'
+
+  # For Debug 
+  # TODO Delete it before publishing
+  spec.add_runtime_dependency 'pry'
+  spec.add_runtime_dependency 'awesome_print'
 end
