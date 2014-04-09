@@ -1,5 +1,5 @@
 require 'spec_helper'
 
-describe Fluent::Plugin::Growthpush do
+describe Fluent::GrowthPushOutput do
   it "pending"
 end
