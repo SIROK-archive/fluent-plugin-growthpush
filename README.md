@@ -23,7 +23,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+### How to debug
+
+```
+$ echo '{"api":"event", "test":"test"}' | fluent-cat out_growthpush
+```
 
 ## Contributing
 
