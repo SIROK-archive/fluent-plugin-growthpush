@@ -23,11 +23,25 @@ Or install it yourself as:
 
 ## Usage
 
+## Output Sample
 
-### How to debug
+``` 
+<source>
+  type http
+  port 8888
+</source>
+
+<match out_growth.**>
+  type growthpush
+  application_id YOUR_APPLICATION_ID
+  secret         YOUR_SECRET
+</match>
+```
+
+### debug
 
 ```
-$ echo '{"api":"event", "test":"test"}' | fluent-cat out_growthpush
+$ echo '{}' | fluent-cat out_growthpush
 ```
 
 ## Contributing
