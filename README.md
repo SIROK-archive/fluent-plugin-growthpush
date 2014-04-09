@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/sota0805/fluent-plugin-growthpush.svg)](https://travis-ci.org/sota0805/fluent-plugin-growthpush)
 [![Code Climate](https://codeclimate.com/github/sota0805/fluent-plugin-growthpush.png)](https://codeclimate.com/github/sota0805/fluent-plugin-growthpush)
+[![Coverage Status](https://coveralls.io/repos/sota0805/fluent-plugin-growthpush/badge.png)](https://coveralls.io/r/sota0805/fluent-plugin-growthpush)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sota0805/fluent-plugin-growthpush/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 
