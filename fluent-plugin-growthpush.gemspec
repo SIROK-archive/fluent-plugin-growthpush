@@ -6,9 +6,9 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Sota Yamashita"]
   spec.email         = ["sota.yamashita@gmail.com"]
-  spec.description   = %q{Growth Push output plugin for Fluentd data collector}
+  spec.description   = %q{Growth Push output Fluentd plugin }
   spec.summary       = %q{Growth Push output plugin for Fluentd data collector}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/sota0805/fluent-plugin-growthpush/tree/develop"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
