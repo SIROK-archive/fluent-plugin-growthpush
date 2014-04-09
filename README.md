@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/sota0805/fluent-plugin-growthpush.svg)](https://travis-ci.org/sota0805/fluent-plugin-growthpush)
 [![Code Climate](https://codeclimate.com/github/sota0805/fluent-plugin-growthpush.png)](https://codeclimate.com/github/sota0805/fluent-plugin-growthpush)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sota0805/fluent-plugin-growthpush/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 
 TODO: Write a gem description
