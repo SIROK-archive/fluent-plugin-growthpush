@@ -23,7 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "fluentd"
   spec.add_runtime_dependency 'growthpush'
 
-  # For Debug 
   # TODO Delete it before publishing
   spec.add_runtime_dependency 'pry'
   spec.add_runtime_dependency 'awesome_print'
