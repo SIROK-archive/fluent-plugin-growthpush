@@ -1,5 +1,9 @@
 # Fluent::Plugin::Growthpush
 
+[![Build Status](https://travis-ci.org/sota0805/fluent-plugin-growthpush.svg)](https://travis-ci.org/sota0805/fluent-plugin-growthpush)
+[![Code Climate](https://codeclimate.com/github/sota0805/fluent-plugin-growthpush.png)](https://codeclimate.com/github/sota0805/fluent-plugin-growthpush)
+
+
 TODO: Write a gem description
 
 ## Installation
