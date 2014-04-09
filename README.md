@@ -23,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-## Output Sample
+### Output Sample
 
 ``` 
 <source>
