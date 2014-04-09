@@ -1,9 +1,10 @@
-require "fluent/plugin/growthpush/version"
+require "pry"
+require "awesome_print"
+require "growth_push"
+require 'net/http'
+require "json"
 
-module Fluent
-  module Plugin
-    module Growthpush
-      # Your code goes here...
-    end
-  end
+class Fluent::GrowthPushOutput < Fluent::Output
+  Fluent::Plugin.register_output('growthpush', self)
+
 end
