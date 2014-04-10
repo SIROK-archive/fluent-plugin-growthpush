@@ -1,7 +1,5 @@
 require "growth_push"
 require "json"
-
-# TODO Delete it before publishing
 require "pry"
 require "awesome_print"
 
@@ -23,11 +21,9 @@ class Fluent::GrowthPushOutput < Fluent::Output
 
   def emit(tag, es, chain)
     chain.next
-    es.each {|time,record|
-      $stderr.puts "#{record}"
-      # @growthpush.create_event(token, name, value);
-      # p GrowthPush.new(@application_id, @secret)
-    }
+    es.each do |time,record|
+      @growthpush.create_event(record["client"], record["name"], record["value"]);
+    end
   end
 
 end
