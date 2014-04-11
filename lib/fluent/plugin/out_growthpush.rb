@@ -10,13 +10,12 @@ class Fluent::GrowthPushOutput < Fluent::Output
   config_param :secret, :string
   
   def initialize 
-    super
+    # super
     @growthpush = GrowthPush.new(@application_id, @secret)
   end
 
   def config(conf)
   	super
-    p conf 
   end
 
 
@@ -27,9 +26,9 @@ class Fluent::GrowthPushOutput < Fluent::Output
       when "client"
         @growthpush.create_client(record["token"], record["os"])
       when "event"
-        @growthpush.create_event(record["client"], record["name"], record["value"])
+        @growthpush.create_event(record["client"], record["name"], record["value"]=nil)
       when "tag"
-        @growthpush.create_tag(record["client"], record["name"], record["value"])
+        @growthpush.create_tag(record["client"], record["name"], record["value"]=nil)
       end
     end
   end
