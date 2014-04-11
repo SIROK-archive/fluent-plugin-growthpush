@@ -10,8 +10,8 @@ class Fluent::GrowthPushOutput < Fluent::Output
   config_param :secret, :string
   
   def initialize 
-    # super
-    @growthpush = GrowthPush.new(@application_id, @secret)
+    super
+    @growthpush = GrowthPush.new(application_id, secret)
   end
 
   def config(conf)
