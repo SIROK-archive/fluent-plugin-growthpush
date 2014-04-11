@@ -16,6 +16,7 @@ class Fluent::GrowthPushOutput < Fluent::Output
 
   def config(conf)
   	super
+    p conf 
   end
 
 
