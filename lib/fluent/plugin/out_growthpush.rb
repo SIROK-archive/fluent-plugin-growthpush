@@ -22,7 +22,7 @@ class Fluent::GrowthPushOutput < Fluent::Output
   def emit(tag, es, chain)
     chain.next
     es.each do |time,record|
-      p @growthpush
+      p GrowthPush.new(@application_id, @secret)
       # case record["api"]
       # when "client"
       #   @growthpush.create_client(record["token"], record["os"])
