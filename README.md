@@ -1,5 +1,5 @@
-fluent-plugin-growthpush
+fluent Plugin Growthpush
 ========================
 
-Growth Push output plugin for Fluentd data collector
+Growth Push output plugin for Fluentd data collector.
 
